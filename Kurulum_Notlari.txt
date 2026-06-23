@@ -1,0 +1,28 @@
+Engebeliler Derneği Skor Tahmin Yarışması - V2
+
+İlk kurulum:
+1. Bu klasörü bilgisayarınızda istediğiniz yere çıkarın.
+2. PowerShell açıp klasöre gidin.
+3. Şu komutu bir kez çalıştırın:
+   pip install -r requirements.txt
+
+Çalıştırma:
+- Calistir.bat dosyasına çift tıklayın.
+
+Başka bilgisayara taşıma:
+- Tüm EngebelilerTahmin_v2 klasörünü kopyalayın.
+- Python kurulu değilse Python kurun.
+- pip install -r requirements.txt komutunu bir kez çalıştırın.
+- Calistir.bat ile açın.
+
+Veriler:
+- Tüm veriler data/tahmin_ligi.db dosyasında saklanır.
+- Yedekler data/backups klasörüne alınır.
+
+Logo:
+- Sonradan logo eklemek için assets klasörüne logo.png adıyla dosya koyun.
+
+Varsayılan yönetici şifresi:
+1234
+
+Şifreyi değiştirmek için config.py dosyasındaki ADMIN_PASSWORD değerini değiştirin.
